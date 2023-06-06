@@ -1,0 +1,36 @@
+
+.wrapper{
+    height: 100vh;
+    max-width: 55rem;
+    padding: 1rem;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid blue;
+}
+.info{
+    margin-top: 1.5rem;
+    line-height:1.5
+}
+#btn{
+    padding:.5rem;
+    width:100%;
+    margin-bottom:1rem;
+    border:none;
+    border-radius:.25rem;
+    cursor:pointer;
+    background-color:blue;
+    color:white
+}
+@media screen and (max-width:768px){
+    .wrapper{
+       
+        margin:  auto;
+        gap:1rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        border: 2px solid blue;
+    }
+}
